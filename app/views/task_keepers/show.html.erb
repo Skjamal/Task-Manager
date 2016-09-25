@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Jamal Task Manager</strong>
+  <%= @task_keeper.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @task_keeper.description %>
+</p>
+
+<%= link_to 'Edit', edit_task_keeper_path(@task_keeper) %> |
+<%= link_to 'Back', task_keepers_path %>

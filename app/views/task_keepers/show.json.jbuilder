@@ -1,0 +1,1 @@
+json.partial! "task_keepers/task_keeper", task_keeper: @task_keeper
